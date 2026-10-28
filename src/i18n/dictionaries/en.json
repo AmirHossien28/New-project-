@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Pidano — Discover businesses and people",
+    "description": "Pidano is a platform to discover businesses, follow people and businesses, and share content."
+  },
+  "common": {
+    "searchPlaceholder": "Search businesses, people or categories…",
+    "search": "Search",
+    "follow": "Follow",
+    "following": "Following",
+    "followers": "followers",
+    "seeAll": "See all",
+    "verified": "Verified",
+    "featured": "Featured",
+    "previewNotice": "This is a design preview — all data is sample data.",
+    "comingSoon": "Enabled in a later step",
+    "new": "New"
+  },
+  "nav": {
+    "home": "Home",
+    "discover": "Discover",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "dashboard": "Business panel",
+    "admin": "Admin panel",
+    "login": "Log in",
+    "register": "Sign up",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "theme": "Change theme",
+    "light": "Light",
+    "dark": "Dark",
+    "language": "Change language",
+    "mainNav": "Main navigation",
+    "skipToContent": "Skip to main content"
+  },
+  "home": {
+    "eyebrow": "Welcome to Pidano",
+    "title": "Discover fresh businesses and people",
+    "subtitle": "Find local and featured businesses, follow them, and keep up with their latest content.",
+    "searchHint": "e.g. cafe, graphic designer, Shiraz",
+    "quickFilters": "Popular searches",
+    "featured": "Featured businesses",
+    "featuredSubtitle": "Businesses that got the most attention this week",
+    "categories": "Categories",
+    "categoriesSubtitle": "Start with a category you care about",
+    "feed": "Latest",
+    "feedSubtitle": "Content from people and businesses you follow",
+    "suggested": "Suggested for you",
+    "suggestedSubtitle": "Businesses you might like",
+    "ctaTitle": "List your business",
+    "ctaBody": "Build a professional profile, add your team, and publish your own content.",
+    "ctaButton": "Start listing",
+    "loadMore": "More content",
+    "trending": "Trending topics"
+  },
+  "post": {
+    "like": "Like",
+    "comment": "Comment",
+    "share": "Share",
+    "save": "Save",
+    "imageLabel": "Image",
+    "videoLabel": "Video",
+    "mediaPlaceholder": "Media preview",
+    "businessPost": "Posted by a business"
+  },
+  "business": {
+    "businessesCount": "businesses",
+    "postsCount": "posts",
+    "visit": "View business page"
+  },
+  "search": {
+    "title": "Search and discover",
+    "subtitle": "This page is built in the next step. For now you can see the first version of the search bar.",
+    "backHome": "Back to home"
+  },
+  "states": {
+    "emptyTitle": "Nothing here yet",
+    "emptyBody": "More content will be added soon.",
+    "errorTitle": "Something went wrong",
+    "errorBody": "Please try again.",
+    "retry": "Try again",
+    "loading": "Loading…"
+  },
+  "status": {
+    "DRAFT": "Draft",
+    "PENDING_REVIEW": "Pending review",
+    "CHANGES_REQUESTED": "Changes requested",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "SUSPENDED": "Suspended"
+  },
+  "footer": {
+    "tagline": "Discover businesses, build new connections.",
+    "product": "Product",
+    "company": "Pidano",
+    "about": "About",
+    "guidelines": "Guidelines",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "All rights reserved."
+  },
+  "placeholders": {
+    "loginTitle": "Log in",
+    "loginBody": "The sign-in and sign-up forms are built in the authentication phase, together with password reset, session handling, and protected pages.",
+    "businessTitle": "Business page",
+    "businessBody": "The public business page — cover, contact details, followers, and posts — is built in the public pages phase.",
+    "backHome": "Back to home"
+  }
+}
