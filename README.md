@@ -58,14 +58,16 @@ npm run dev
 سایر دستورها:
 
 ```powershell
-npm run build   # ساخت نسخه production (باید بدون خطا و بدون هشدار تمام شود)
-npm run start   # اجرای نسخه ساخته‌شده
-npm run lint    # بررسی کیفیت و قواعد کد
-npx tsc --noEmit # بررسی نوع‌ها (TypeScript)
+npm run build     # ساخت نسخه production (باید بدون خطا و بدون هشدار تمام شود)
+npm run start     # اجرای نسخه ساخته‌شده
+npm run lint      # بررسی کیفیت و قواعد کد
+npm run typecheck # ساخت نوع‌های مسیرها و بررسی TypeScript
 ```
 
-> نکته: اگر تازه فایل‌های مسیرها را اضافه کرده‌اید و خطای «PageProps/LayoutProps پیدا نشد» گرفتید،
-> یک‌بار `npx next typegen` را اجرا کنید تا نوع‌های مسیرها ساخته شوند.
+> نکته مهم: مسیرهای پروژه در `src/app/[locale]` هستند و Next.js نوع‌های `PageProps` / `LayoutProps` را
+> خودش هنگام build یا dev تولید می‌کند. اگر پوشه `.next` را پاک کنید و مستقیم `npx tsc --noEmit` بزنید،
+> خطای «Cannot find name 'PageProps'» می‌گیرید — این یعنی نوع‌ها هنوز ساخته نشده‌اند، نه اینکه کد خراب است.
+> به همین دلیل همیشه از `npm run typecheck` استفاده کنید که اول `next typegen` را اجرا می‌کند.
 
 ---
 
